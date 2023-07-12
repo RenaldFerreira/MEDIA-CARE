@@ -1,4 +1,4 @@
-<h1>Pet Shopping</h1>
+<h1>Pet Shop</h1>
 <br>
 <br>
 <h2> Projeto de um pet shop criado nas aulas do <a href="https://rodolfomori.com.br/devclub">DevClub</a></h2>
