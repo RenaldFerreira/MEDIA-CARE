@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    margin: 44px 0 144px 76px;
+    
+}
+.link-header{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+.link-header:hover{
+   opacity: .8;
+}
+ #button-1{
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 23px;
+ }
+ #button-1:hover{
+opacity: .8;
+ }
+ #button-1:active{
+   opacity: .5;
+ }
+
+ .logo{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+ }
+ section{
+    margin-left: 86px;
+    display: inline-block;
+ }
+ h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+
+ }
+ h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    
+    
+ }
+ p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    color: #848484;
+    margin-top: 32px;
+ }
+ button{
+    background: #ADFF00;
+    border-radius: 20.5px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 65px;
+    cursor: pointer;
+ }
+ button:hover{
+   opacity: .8;
+ }
+ button:active{
+   opacity: .5;
+ }
+
+@media screen and (max-width:800px){
+   header{
+      display: none;
+   }
+   .logo{
+     
+      width: 354px;
+      height: 317px;
+      position: static;
+      margin: 149px 20px 24px 20px;
+
+   }
+   section {
+      display: block;
+      top: 470px;
+      height: 50%;
+     
+     
+     
+     
+
+   }
+   h1{
+      width: auto;
+      height: 52px;
+      font-size: 50px;
+      line-height: 61px;
+    
+   
+   }
+   h2{
+      width: auto;
+      font-size: 30px;
+      line-height: 37px;
+     
+
+     
+   }
+   p{
+      display: none;
+   }
+   button{
+  
+   display:block;
+   margin-top: 17px;
+  
+   }
+}
